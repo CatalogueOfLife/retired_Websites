@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+Options -Indexes
+
+AuthType Basic
+AuthName "4d4life"
+AuthUserFile /var/www/4d4lifewebsite/tests/.htpswd
+Require user 4d4life
+
+

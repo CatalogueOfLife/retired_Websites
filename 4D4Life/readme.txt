@@ -1,0 +1,1 @@
+Note that mysql folder contains data to restore mysql database

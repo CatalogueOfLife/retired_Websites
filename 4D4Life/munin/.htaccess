@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+Options -Indexes
+
+AuthType Basic
+AuthName "munin"
+AuthUserFile /var/www/4d4lifewebsite/munin/.htpasswd
+Require user munin

@@ -1,0 +1,7 @@
+[12-Mar-2010 15:27:03] PHP Fatal error:  Call to undefined function:  imagecreatefromjpeg() in /var/www/4d4lifewebsite/LightNEasy/common.php on line 1008
+[25-Mar-2010 12:17:59] PHP Fatal error:  Call to undefined function:  imagecreatefromjpeg() in /var/www/4d4lifewebsite/LightNEasy/common.php on line 1008
+[13-May-2010 15:12:24] PHP Warning:  session_start(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in /var/www/4d4lifewebsite/LightNEasy/runtime.php on line 21
+[24-May-2010 11:29:49] PHP Fatal error:  Call to undefined function:  imagecreatefromjpeg() in /var/www/4d4lifewebsite/LightNEasy/common.php on line 1008
+[24-May-2010 11:29:52] PHP Fatal error:  Call to undefined function:  imagecreatefromjpeg() in /var/www/4d4lifewebsite/LightNEasy/common.php on line 1008
+[09-Oct-2010 05:48:22] PHP Warning:  session_start(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in /var/www/4d4lifewebsite/LightNEasy/runtime.php on line 21
+[04-Jan-2011 21:26:52] PHP Warning:  session_start(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in /var/www/4d4lifewebsite/LightNEasy/runtime.php on line 21

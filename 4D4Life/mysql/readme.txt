@@ -1,0 +1,1 @@
+To restore database EITHER execute backup from the dump 4d4life_lne_dump.sql OR copy 4d4life_lne folder with contents into mysql data directory.

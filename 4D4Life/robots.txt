@@ -1,0 +1,20 @@
+User-agent: * 
+
+Disallow: /lnf/
+Disallow: /tests/
+
+Disallow: /LightNEasy/
+Disallow: /plugins/
+Disallow: /templates/
+Disallow: /thumbs/
+Disallow: /userfiles/
+
+Disallow: /languages/
+Disallow: /js/
+Disallow: /data/
+Disallow: /fckeditor/
+Disallow: /downloads/
+Disallow: /userfiles/
+
+Disallow: /4d4life_adm.php
+Disallow: /LightNEasy.php

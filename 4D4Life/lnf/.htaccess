@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+Options -Indexes
+
+Redirect 301 "/lnf/" http://www.4d4life.eu/
+
+
