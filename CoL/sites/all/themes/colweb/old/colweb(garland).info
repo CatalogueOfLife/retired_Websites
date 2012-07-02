@@ -1,0 +1,21 @@
+; $Id: garland.info,v 1.5 2007/07/01 23:27:32 goba Exp $
+name = Colweb
+description = Col theme.
+version = VERSION
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/main.css
+stylesheets[print][] = print.css
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+
+; Information added by drupal.org packaging script on 2010-03-04
+version = "6.16"
+project = "drupal"
+datestamp = "1267662008"
+

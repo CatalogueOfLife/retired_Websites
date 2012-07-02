@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+} /**/
+
+body {
+  margin: 0 auto 0 auto;
+  padding: 0 0 0 0;
+}
+
+#page {
+  padding: 0 0 0 8px;
+  margin: 0 0 0 0;
+}
+
+#header {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#header_images {
+  width: 100%;
+}
+
+.clear-block{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+#sidebar-left {
+  margin: 0 0 0 0;
+  padding: 0 5px 0 0;
+  float:left;
+}
+
+.block-menu{
+  margin: 8px 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.block-menu h2{
+  margin: 0 0 0 0;
+  padding: 8px 0 4px 4px;
+}
+
+#main {
+  float:right;
+  text-align: justify;
+  margin: 0 0 0 0;
+  padding: 8px 0 0 5px;
+}
+
+#slogan {
+  margin: 0 0 8px 0;
+  padding: 0 0 0 0;
+}
+
+/*
+#dynamic img,
+#annual img,
+#archive img,
+#services img {
+  float: left;
+  clear: both;
+  position: relative;
+} */
+
+#footer {
+  font-size: 80%;
+  margin: 0.5em 0 1.5ex 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  font-weight: bold;
+/*  clear: both;
+  text-align: right;
+  margin: 0.5em 0 1.5ex 0;
+  border-top: 2px solid rgb(64,102,24); */
+}
+
+#footer p{
+  margin: 0.5em 0 1.5ex 0;
+  padding: 0 0 0 0;
+}
+
+#footer .left{
+/*  margin: 0.5em 0 1.5ex 0;
+  clear: both;
+  display: inline; */
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  float: left;
+  position: relative;
+}
+
+#footer .right{
+/*  margin: 0.5em 0 1.5ex 0;
+  clear: both; */
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  float: right;
+  text-align: right;
+  position: relative;
+}
+

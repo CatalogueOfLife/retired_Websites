@@ -1,0 +1,11 @@
+name = colweb
+description = theme for the Catalogue of Life
+core = 6.x
+engine = phptemplate
+regions[left] = Left sidebar
+regions[content] = Content
+regions[content_top] = Content top
+regions[content_right] = Content right
+regions[content_lower] = Content lower
+regions[header] = Header
+regions[footer] = Footer

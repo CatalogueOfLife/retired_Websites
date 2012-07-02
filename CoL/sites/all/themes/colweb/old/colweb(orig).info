@@ -1,0 +1,10 @@
+name = colweb
+description = test theme.
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = css/mscreen.css
+regions[left] = Left sidebar
+regions[content] = Content
+regions[content_top] = Content top
+regions[header] = Header
+regions[footer] = Footer

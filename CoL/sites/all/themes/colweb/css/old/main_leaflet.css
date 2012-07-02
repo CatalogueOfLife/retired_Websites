@@ -1,0 +1,1063 @@
+html > body {
+  color: black;
+  font-family: Verdana, Helvetica, Arial, Sans-serif;
+}
+
+html {
+  background: #cccccc; /* for non-css3 browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#ffffff'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#ffffff)); /* for webkit browsers */
+  background: -moz-linear-gradient(top, #cccccc, #ffffff); /* for firefox 3.6+ */
+/*  background-color: rgb(251,205,232);
+  background-color: white;
+  background-image: url(/images/bg5.jpg);
+  background-position: left top;
+  background-repeat: repeat; */
+}
+
+body {
+  background-color: white;
+/*  z-index: -2;
+  -moz-border-width: 10px 5px;
+  border-width: 10px 5px;
+  background-color: transparent;
+  background-color: red;
+  border-bottom: solid 2px rgb(251,205,232);
+  border-bottom: solid 2px rgb(229,229,229);
+  border: solid 1px black; */
+  border-right: solid 2px rgb(189,189,189);
+  border-left: solid 2px rgb(189,189,189);
+  border-bottom: solid 5px rgb(189,189,189);
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#page {
+  background-color: transparent;
+/*  background-color: red; */
+}
+
+.doNotDisplay {
+  display: none;
+}
+
+#header {
+/*  background-image: url(/images/blue_black_col.jpg); */
+  background-image: url(/images/head/col_red.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: white;
+  color: white;
+}
+
+#header_images {
+  background-color: transparent;
+/*  background-image: url(/images/head_right.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  color: white; */
+}
+
+#headlink2{
+  text-align: right;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  height: 95px;
+/*  float: right;
+  padding: 40px 0 2px 2px;
+  display: block;
+  width: 80px;
+  position: relative;
+  position: absolute;
+  margin: auto 0 0 0;
+  height: 30px;
+  clear: both; */
+}
+
+#headlink2 .green2 {
+  float: right;
+/*  background-image: url(/images/wood2_vsm.jpg);
+  background-position: right bottom;
+  background-image: url(/images/flower_vsm2.jpg);
+  background-position: left top;
+  background-image: url(/images/menu/snail2_vsm3.jpg);
+  background-image: url(/images/snail2_vsm.jpg);
+  background-position: right top;
+  background-image: url(/images/dragonfly_vsm.jpg);
+  background-position: left bottom; */
+  background-image: url(/images/snail3_vsm.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 0 0 6px;
+  padding: 0 0 0 0;
+  width: 66px;
+  height: 100%;
+  -moz-border-radius-bottomright: 2px;
+  border-bottom-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+}
+#green3 {
+/*  background-image: url(/images/green.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat; */
+  background-color: transparent;
+  margin: 45px 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 50px;
+}
+
+#headlink2 .blue2 {
+  float: right;
+/*  background-image: url(/images/menu/fish_vsm3.jpg);
+  background-position: left bottom;
+  background-image: url(/images/fish_vsm.jpg);
+  background-position: left bottom; */
+  background-image: url(/images/flower2_vsm.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 0 0 6px;
+  padding: 0 0 0 0;
+  width: 66px;
+  height: 100%;
+  -moz-border-radius-bottomright: 2px;
+  border-bottom-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+}
+#blue3 {
+/*  background-image: url(/images/blue.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat; */
+  background-color: transparent;
+  margin: 45px 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 50px;
+}
+
+#headlink2 .yellow2 {
+  float: right;
+/*  background-image: url(/images/wood2_vsm.jpg);
+  background-position: right top;
+  background-image: url(/images/snail2_vsm.jpg);
+  background-position: right top;
+  background-image: url(/images/wasp_vsm2.jpg);
+  background-position: right bottom;
+  background-image: url(/images/menu/stripes_vsm3.jpg);
+  background-position: left bottom; */
+  background-image: url(/images/stripes_vsm.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: red;
+  margin: 0 0 0 6px;
+  padding: 0 0 0 0;
+  width: 66px;
+  height: 100%;
+  -moz-border-radius-bottomright: 2px;
+  border-bottom-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+}
+#yellow3 {
+/*  background-image: url(/images/yellow.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat; */
+  background-color: transparent;
+  margin: 45px 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 50px;
+}
+
+#headlink2 a,
+#headlink2 a:visited{
+/*  position: relative;
+  float: right;
+  display: block;
+  padding: 8px 0 4px 4px;
+  margin: 68px 0 0 0;
+  padding: 2px 2px 2px 2px;
+  clear: both;
+  height: 30px;
+  background-color: black;
+  background-image: url(/images/stripes_fade.jpg);
+  background-position: right top;
+  background-repeat: no-repeat; */
+  background-image: none;
+  background-color: white;
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 70%;
+/*  margin: 68px 0 0 0;
+  padding: 2px 2px 2px 2px;
+  margin: 46px 0 0 0;
+  border-top: solid 2px transparent;
+  border-bottom: solid 2px white; */
+  margin: 0 0 0 0;
+  padding: 0 2px 0 0;
+}
+
+#headlink2 a:hover{
+  color: black;
+/*  background-image: url(/images/red.jpg);
+  border-left: solid 12px black;
+  background-position: right top;
+  background-repeat: no-repeat;
+  border-top: solid 2px black;
+  border-bottom: solid 8px rgb(168,227,235);
+  background-color: white; */
+  text-decoration: none;
+}
+
+#headlink2 .green2 a:hover{
+  border-bottom: solid 8px rgb(168,227,235);
+/*  background-image: url(/images/dragonfly_fade.jpg);
+  background-position: left top; */
+  background-image: url(/images/snail3_fade.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+#headlink2 .blue2 a:hover{
+  border-bottom: solid 8px rgb(202,228,33);
+/*  background-image: url(/images/fish_fade.jpg); */
+  background-image: url(/images/flower2_fade.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+#headlink2 .yellow2 a:hover{
+  border-bottom: solid 8px rgb(251,205,232);
+  background-image: url(/images/stripes_fade.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+/*#block-menu-menu-goto h2 {
+  background-color: rgb(198,51,51);
+  color: white;
+  font-size: 90%;
+  background-image: url(/images/redleaves_sm.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+} */
+
+/*#block-menu-menu-goto {
+  border-top: solid 4px rgb(168,227,235);
+} */
+
+#block-menu-menu-goto h2 {
+  background-image: url(/images/wood1_sm2.jpg);
+  background-position: right bottom;
+/*  background-image: url(/images/redleaves_sm.jpg);
+  background-position: left top;
+  background-image: url(/images/wasp_sm2.jpg);
+  background-position: left bottom;
+  background-image: url(/images/menu/flower_sm2b.jpg);
+  background-position: right top;
+  background-image: url(/images/flower_sm2.jpg);
+  background-position: right top;
+  background-image: url(/images/fish2_sm.jpg);
+  background-position: right bottom; */
+  background-repeat: no-repeat;
+  border-left: solid 6px rgb(8,96,106);
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+#block-menu-menu-goto input {
+/*  background-color: transparent;
+  color: white;
+  border: none; */
+  padding: 0 0 0 0;
+  margin: 0.5ex 0 1ex 1ex;
+}
+
+#block-menu-menu-goto .submit {
+/*  background-color: transparent;
+  border: solid 3px rgb(8,96,106);
+  border: solid 1px rgb(189,189,189); */
+  padding: 0 0.5ex 0 0.5ex;
+  border: none;
+  color: white;
+  background-color: rgb(8,96,106);
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#block-menu-menu-goto .submit:hover {
+/*  background-color: transparent;
+  border: solid 1px rgb(189,189,189);
+  border: solid 3px rgb(168,227,235); */
+  color: white;
+  background-color: rgb(168,227,235);
+}
+
+#block-menu-menu-help h2 {
+/*  background-image: url(/images/redleaves_sm.jpg);
+  background-position: right top;
+  background-image: url(/images/wasp_sm2.jpg);
+  background-position: left bottom;
+  background-image: url(/images/menu/flower_sm2b.jpg);
+  background-position: right top;
+  background-image: url(/images/flower_sm2.jpg);
+  background-position: right top; */
+  background-image: url(/images/fish2_sm.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  border-left: solid 6px rgb(168,227,235);
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+/*#block-menu-menu-help .content {
+  border-right: solid 4px rgb(168,227,235);
+  border-bottom: solid 2px rgb(168,227,235);
+  margin: 0 0 12px 0;
+  padding: 0 0 0 0;
+} */
+
+#block-menu-menu-services h2 {
+/*  background-color: rgb(229,227,53);
+  color: white;
+  font-size: 90%;
+  background-image: url(/images/menu/toadstool_sm2.jpg);
+  background-position: left bottom; */
+  background-image: url(/images/toadstool4_sm.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  border-left: solid 6px rgb(202,228,33);
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+/*#block-menu-menu-services .content {
+  border-right: solid 4px rgb(202,228,33);
+} */
+
+/*#block-menu-menu-services {
+  border-bottom: solid 2px rgb(202,228,33);
+  margin: 0 0 12px 0;
+  padding: 0 0 0 0;
+}*/
+
+
+#block-menu-menu-col h2 {
+/*  background-color: rgb(81,124,167);
+  color: white;
+  font-size: 90%;
+  background-image: url(/images/snail2_sm2.jpg);
+  border-bottom: solid 4px rgb(251,205,232);
+  border-right: solid 4px white;
+  background-image: url(/images/menu/wood_sm2.jpg);
+  background-position: right bottom;
+  background-image: url(/images/wood1_sm2.jpg);
+  background-position: left bottom; */
+  background-image: url(/images/dragonfly1_sm.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  border-left: solid 6px rgb(251,205,232);
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+/*#block-menu-menu-col .content {
+  border-left: solid 4px rgb(251,205,232);
+  border-right: solid 4px rgb(251,205,232);
+  border-bottom: solid 4px rgb(251,205,232);
+  background-color: rgb(251,205,232);
+} */
+
+/*#block-menu-menu-col {
+  border-bottom: solid 2px rgb(251,205,232);
+  margin: 0 0 12px 0;
+  padding: 0 0 0 0;
+} */
+
+.block-menu h2{
+/*  border-bottom: 2px solid rgb(168,227,235);
+  background-color: transparent;
+  color: rgb(8,96,106); */
+  color: white;
+  font-size: 90%;
+}
+
+.block-menu a{
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+  font-size: 90%;
+}
+
+.block-menu a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.block-menu a.active{
+  color: rgb(8,96,106);
+  text-decoration: none;
+  font-style: italic;
+}
+
+#main-squeeze{
+/*  border-top: solid 2px rgb(202,228,33);
+  width: 100%;
+  float: left;
+  position: static; */
+  border-top: solid 4px rgb(202,228,33);
+}
+
+#org{
+  float: left;
+  position: static;
+}
+
+#main h1 {
+  color: rgb(8,96,106);
+  background-color: transparent;
+  font-size: 160%;
+  font-weight: normal;
+  display: block;
+  clear: both;
+/*  border-top: solid 2px black; */
+}
+
+#main h2 {
+  color: rgb(8,96,106);
+  background-color: transparent;
+  font-size: 140%;
+  font-weight: normal;
+  display: block;
+  clear: both;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+/*  border-top: solid 2px black; */
+}
+
+#main h3 {
+  color: rgb(8,96,106);
+  background-color: transparent;
+  font-size: 120%;
+  font-weight: normal;
+  display: block;
+  clear: both;
+  margin: 1.5em 0 0 0;
+  padding: 0 0 0 0;
+/*  border-top: solid 2px black; */
+}
+
+#main h3 a,
+#main h3 a:visited {
+  color: rgb(8,96,106);
+  text-decoration: underline;
+}
+
+#main h3 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#slogan {
+/*  background-color: orange;
+  background-image: url(/images/redleaves_bg2.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  border-bottom: solid 2px black;
+  border-top: solid 2px black;
+  color: white; */
+  background-color: transparent;
+  font-size: 120%;
+  color: black;
+}
+
+/*#slogan .content {
+  background-color: yellow;
+} */
+
+#dynamic2 {
+  background-color: transparent;
+/*  text-align: left;
+  background-color: red;
+  background-image: url(/images/frog.jpg);
+  text-align: justify;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: white;
+  color: black; */
+}
+
+#dynamic2 img {
+  float: right;
+  position: absolute;
+  z-index: 0;
+/*  position: relative;
+  display: inline;
+  vertical-align: -120px; */
+  margin: -40px 0 0 580px;
+  padding: 0 0 0 0;
+  border: none;
+}
+
+#annual2 {
+  background-color: transparent;
+/*  background-image: url(/images/current_cover_sm);
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: black;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+  display: inline;
+  float: left;
+  clear: none;
+  z-index: 0;
+  position: relative;
+  background-color: orange; */
+}
+
+#annual2 img {
+  z-index: 0;
+  position: absolute;
+  float: right;
+  position: absolute;
+/*  float: left;
+  clear: none;
+  position: relative;
+  display: inline;
+  vertical-align: -120px;
+  margin: -36px 0 0 -124px; */
+  margin: 6px 0 0 -120px;
+  padding: 0 0 0 0;
+  border-right: 2px solid rgb(229,229,229);
+  border-bottom: 2px solid rgb(229,229,229);
+}
+
+#annual3 {
+  display: inline;
+  background-color: green;
+  float: right;
+/*  float: left; */
+  z-index: 1;
+  clear: none;
+  position: relative;
+}
+
+#annual,
+#archive,
+#services {
+/*  background-image: url(/images/red.jpg);
+  background-position: right bottom;
+  background-repeat: repeat-x;
+  background-color: black; */
+  background-color: transparent;
+  color: black;
+}
+
+a:visited .redspot,
+a .redspot {
+  background-color: black;
+  background-image: url(/images/red.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+/*  display: inline; */
+}
+
+a:hover .redspot {
+  background-color: black;
+  background-image: url(/images/black.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat; /**/
+}
+
+#extra {
+  background-color: transparent;
+  color: black;
+/*  border-top: solid 2px black;
+  color: white;
+  background-image: url(/images/boxes/wood.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat; */
+}
+
+#content_right {
+  float: right;
+  position: relative;
+  background-color: transparent;
+}
+
+#content_right img {
+  border: none;
+}
+
+#extra1b {
+/*  background-image: url(/images/red.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat; */
+  background-color: transparent;
+  margin: 35px 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 30px;
+  text-align: right;
+}
+
+#extra .extra2 {
+  float: right;
+  background-image: url(/images/green.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 12px 0 0 6px;
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 65px;
+}
+
+#extra2b {
+/*  background-image: url(/images/green.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat; */
+  background-color: transparent;
+  margin: 35px 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 30px;
+  text-align: right;
+}
+
+#extra .extra3 {
+  float: right;
+  background-image: url(/images/blue.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: blue;
+  margin: 12px 0 0 6px;
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 65px;
+}
+
+#extra3b {
+/*  background-image: url(/images/blue.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat; */
+  background-color: transparent;
+  margin: 35px 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 30px;
+  text-align: right;
+}
+
+#extra .extra4 {
+  float: right;
+  background-image: url(/images/yellow.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 12px 0 0 6px;
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 65px;
+}
+
+#extra4b {
+/*  background-image: url(/images/yellow.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat; */
+  background-color: transparent;
+  margin: 35px 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  height: 30px;
+  text-align: right;
+}
+
+#extra h2{
+/*  font-size: 110%;
+  text-align: left;
+  font-size: 140%; */
+  text-align: right;
+  font-size: 110%;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+}
+
+#extra h3{
+  font-size: 110%;
+/*  font-size: 140%; */
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+#extra a,
+#extra a:visited {
+  font-size: 70%;
+  font-weight: bold;
+  background-color: white;
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 0 0 0 0;
+  padding: 0 2px 0 0;
+}
+
+#extra a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: solid 4px black;
+}
+
+/*
+#dynamic img a,
+#annual img a,
+#archive img a,
+#services img a{
+  display: block;
+} */
+
+#archive h2,
+#services h2 {
+  font-size: 140%;
+  font-weight: normal;
+  color: white;
+/*  font-style: italic;
+  border-top: solid 2px black;
+  position: relative;
+  display: inline; */
+  background-color: white;
+  background-image: url(/images/red.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+#dynamic a h2,
+#annual a h2{
+  font-size: 140%;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  cursor: hand;
+  background-color: transparent;
+  background-image: url(/images/red.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+/*
+#dynamic h2 {
+  background-color: rgb(168,227,235);
+}
+
+#annual h2 {
+  background-color: rgb(202,228,33);
+}
+
+#archive h2 {
+  background-color: rgb(251,205,232);
+}
+
+#services h2 {
+  background-color: rgb(251,205,232);
+}
+*/
+
+#archive a,
+#services a {
+  text-decoration: none;
+/*  width: 100%;
+  display: block; */
+  color: black;
+  cursor: pointer;
+  cursor: hand;
+  background-color: white;
+}
+
+/* #extra a {
+  text-decoration: none;
+  color: white;
+}
+
+#extra a:hover {
+  text-decoration: underline;
+  color: white;
+} */
+
+#dynamic a:hover h2,
+#annual a:hover h2 {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  cursor: hand;
+  background-color: transparent;
+  background-image: url(/images/black.jpg);
+  background-position: right bottom;
+  background-repeat: repeat-x;
+/*  background-color: transparent; */
+}
+
+#archive a:hover,
+#services a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  cursor: hand;
+/*  background-image: url(/images/blue.jpg);
+  background-position: right bottom;
+  background-repeat: repeat-x;
+  background-color: transparent; */
+}
+
+/*
+#dynamic h2 a:visited,
+#annual h2 a:visited,
+#archive h2 a:visited,
+#services h2 a:visited {
+  text-decoration: none;
+  color: black;
+} */
+
+#extra h2 a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+#dynamic .content,
+#archive .content,
+#annual .content{
+  float: left;
+  position: relative;
+  display: inline;
+  clear: right;
+} */
+/*
+#services .content {
+  float: left;
+  position: absolute;
+  clear: right;
+  display: inline;
+} */
+
+#dynamic a h3,
+#annual a h3 {
+  font-size: 110%;
+  font-weight: normal;
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  cursor: hand;
+/*  background-color: yellow;
+  color: rgb(8,96,106);
+  display: block; */
+}
+
+#archive h3,
+#services h3 {
+  font-size: 110%;
+  font-weight: normal;
+  color: rgb(8,96,106);
+  background-color: transparent;
+  color: black;
+/*  background-color: yellow;
+  display: block; */
+}
+
+#dynamic a,
+#annual a {
+  background-color: transparent;
+  font-size: 100%;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  cursor: hand;
+  border-top: 2px solid black;
+}
+
+#dynamic a:hover,
+#annual a:hover {
+  background-color: transparent;
+  font-size: 100%;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  cursor: hand;
+  border-top: 2px solid red;
+}
+
+#archive p,
+#services p {
+  background-color: transparent;
+  font-size: 100%;
+}
+
+#standard {
+  padding: 0 0 0 0;
+  margin: 0 0 18px 0;
+  background-color: transparent;
+}
+
+#standard h2 {
+  font-size: 150%;
+  background-color: transparent;
+/*  z-index: 2;
+  font-weight: normal;
+  display: inline;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  width: 250px; */
+}
+
+#standard a h2,
+#standard a:visited h2 {
+  font-weight: normal;
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(8,96,106);
+  cursor: pointer;
+  cursor: hand;
+  border-bottom: 4px solid rgb(168,227,235);
+}
+
+#standard a:hover h2 {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  cursor: hand;
+  border-bottom: 4px solid rgb(251,205,232);
+}
+
+#standard h3 {
+  font-size: 110%;
+  font-weight: normal;
+  background-color: transparent;
+  color: rgb(8,96,106);
+/*  display: inline;
+  color: red;
+  margin: 8px 0 0 0;
+  z-index: 1;
+  padding: 0 0 0 0; */
+  float: right;
+  text-align: right;
+  position: relative;
+  height: 25px;
+  display: block;
+  margin: -34px 0 0 0;
+  padding: 2px 0 0 0;
+}
+
+#dynamic2 p,
+#annual2 p {
+  font-size: 100%;
+  color: black;
+  background-color: transparent;
+  float: left;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+/*  margin: 0 0 0 0;
+  display: block;
+  padding: 0 0 0 0;
+  position: static; */
+}
+
+/*#lower p {
+  display: none;
+} */
+
+#lower p {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#lower img {
+  display: block;
+  margin: 0 auto 0 auto;
+  padding: 0 0 0 0;
+/*  margin-left: auto;
+  margin-right: auto; */
+}
+
+#main a,
+#main a:visited {
+  color: rgb(8,96,106);
+  text-decoration: none;
+}
+
+#main a:hover {
+  color: rgb(8,96,106);
+  text-decoration: underline;
+}
+
+#footer {
+  border-top: 4px solid rgb(168,227,235);
+/*  border-top: 4px solid rgb(251,205,232); */
+  background-color: transparent;
+  color: rgb(8,96,106);
+}
+
+#footer a:visited,
+#footer a{
+  text-decoration: none;
+  color: rgb(8,96,106);
+}
+
+#footer a:hover{
+  text-decoration: underline;
+  color: rgb(8,96,106);
+}
+
